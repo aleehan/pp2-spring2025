@@ -105,6 +105,7 @@ else:
     print("3")
 
 # Ex 5
+d =1
 if a == b and c == d:
     print("Hello")
 
