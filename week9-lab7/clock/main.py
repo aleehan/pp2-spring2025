@@ -21,8 +21,8 @@ while True:
     current_min = current_time.strftime("%M")
     current_sec = current_time.strftime("%S")
 
-    angle_min = -6 * int(current_min)
-    angle_sec = -6 * int(current_sec)
+    angle_min = -7 * int(current_min) - 7
+    angle_sec = -6 * int(current_sec) + 60
 
     minute = pygame.transform.rotate(right_hand, angle_min)
     second = pygame.transform.rotate(left_hand, angle_sec)
